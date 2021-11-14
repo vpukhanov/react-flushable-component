@@ -1,6 +1,13 @@
 module.exports = {
   mode: 'production',
-  entry: './src/index.ts',
+  entry: {
+    index: './src/index.ts',
+  },
+  output: {
+    library: {
+      type: 'commonjs',
+    },
+  },
   module: {
     rules: [
       {
