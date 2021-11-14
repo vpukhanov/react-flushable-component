@@ -9,6 +9,7 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
+    "@vpukhanov/babel-plugin-flushable-import": "file:../babel-plugin-flushable-import?temporary-import-until-package-is-published",
     "@types/react": "^17.0.34",
     "babel-loader": "^8.2.3",
     "concurrently": "^6.4.0",
@@ -18,6 +19,7 @@
     "webpack-cli": "^4.9.1"
   },
   "peerDependencies": {
+    "@vpukhanov/babel-plugin-flushable-import": "^0.0.1",
     "react": "^17.0.0"
   }
 }
